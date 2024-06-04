@@ -12,14 +12,15 @@ struct CustomTextField: View {
     var title: String
     var hint: String
     @Binding var value: String
+    @Binding var activeField: String?
     var isPassword: Bool = false
     
     @State private var showPassword: Bool = false
+    @FocusState private var isFocused: Bool
     var body: some View {
         VStack(alignment: .leading) {
             Text(title)
-                .font(.system(size: 16,weight: .medium))
-                .kerning(0.9)
+                .font(.system(size: 14,weight: .medium))
             
             HStack (spacing: 12){
                 Image(icon)
@@ -30,15 +31,18 @@ struct CustomTextField: View {
                     Group {
                         if showPassword {
                             TextField("", text: $value, prompt: Text(hint))
-
+                                .focused($isFocused)
+                                .ignoresSafeArea(.keyboard, edges: .bottom)
                         }else {
                             SecureField("", text: $value, prompt: Text(hint))
-
+                                .focused($isFocused)
+                                .ignoresSafeArea(.keyboard, edges: .bottom)
                         }
                     }
                 }else {
                     TextField("", text: $value, prompt: Text(hint))
-
+                        .focused($isFocused)
+                        .ignoresSafeArea(.keyboard, edges: .bottom)
                 }
                 
                 if isPassword {
@@ -63,7 +67,12 @@ struct CustomTextField: View {
             .background(.ultraThinMaterial, in: .rect(cornerRadius: 12))
             .overlay {
                 RoundedRectangle(cornerRadius: 12)
-                    .stroke(.gray, lineWidth: 0.5)
+                    .stroke(.linearGradient(colors: [
+                        .white.opacity(0.6),
+                        .clear,
+                        .purple.opacity(0.2),
+                        .purple.opacity(0.5)
+                    ], startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 0.6)
             }
 
         }
@@ -72,6 +81,6 @@ struct CustomTextField: View {
 }
 
 #Preview {
-    CustomTextField(icon: "person_icon", title: "Email Address", hint: "Enter email address", value: .constant(""), isPassword: true)
+    CustomTextField(icon: "person_icon", title: "Email Address", hint: "Enter email address", value: .constant(""), activeField: .constant(nil), isPassword: true)
         .preferredColorScheme(.dark)
 }

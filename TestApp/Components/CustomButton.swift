@@ -21,6 +21,8 @@ struct CustomButton: View {
                     .pink.opacity(0.5),
                     .red
                 ], startPoint: .leading, endPoint: .trailing), in: .rect(cornerRadius: 12))
+                .clipShape(.rect(cornerRadius: 12))
+                .shadow(color: .white.opacity(0.25), radius: 8, x: 2, y: 2)
         }
     }
 }

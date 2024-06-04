@@ -17,6 +17,7 @@ struct TitleAndMessageView: View {
             
             Text(message)
                 .font(.system(size: 14, weight: .regular))
+                .multilineTextAlignment(.center)
         }
         .padding(.vertical, 10)
         .padding(.horizontal, 15)

@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct Background: View {
+    var image: ImageResource = .heroImageOne
     var body: some View {
         GeometryReader {
             let size = $0.size
             Color.black
             VStack {
-                Image(.heroImageOne)
+                Image(image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: size.width)
