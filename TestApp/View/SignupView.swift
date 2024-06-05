@@ -96,6 +96,19 @@ struct SignupView: View {
         }, set: { value in
             viewModel.showAlert = value
         }), message: viewModel.alertMessage)
+        .navigationDestination(isPresented: .init(get: {
+            viewModel.goToHome
+        }, set: { value in
+            viewModel.goToHome = value
+        })) {
+            HomeView()
+                .navigationBarBackButtonHidden()
+        }
+        .overlay {
+            if viewModel.showLoading {
+                Spinner()
+            }
+        }
     }
 }
 

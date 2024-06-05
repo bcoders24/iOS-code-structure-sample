@@ -14,6 +14,11 @@
 		B909DAD92C0EDC0F009DE0A1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909DAD82C0EDC0F009DE0A1 /* Utils.swift */; };
 		B909DADB2C0EDD17009DE0A1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909DADA2C0EDD17009DE0A1 /* View.swift */; };
 		B909DADD2C0EDD59009DE0A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909DADC2C0EDD59009DE0A1 /* Constants.swift */; };
+		B909DADF2C0EE0AC009DE0A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909DADE2C0EE0AC009DE0A1 /* HomeView.swift */; };
+		B909DAE22C0EE739009DE0A1 /* GreatVibes-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B909DAE12C0EE739009DE0A1 /* GreatVibes-Regular.ttf */; };
+		B909DAE52C0EE75E009DE0A1 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909DAE42C0EE75E009DE0A1 /* Fonts.swift */; };
+		B909DAE72C0EE77F009DE0A1 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909DAE62C0EE77F009DE0A1 /* Font.swift */; };
+		B909DAEB2C0EF2E6009DE0A1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909DAEA2C0EF2E6009DE0A1 /* NavigationController.swift */; };
 		B93D2E3E2C0DECB000539ACF /* TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D2E3D2C0DECB000539ACF /* TestAppApp.swift */; };
 		B93D2E402C0DECB000539ACF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D2E3F2C0DECB000539ACF /* ContentView.swift */; };
 		B93D2E422C0DECB300539ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93D2E412C0DECB300539ACF /* Assets.xcassets */; };
@@ -26,6 +31,12 @@
 		B93D2E5E2C0DFC4900539ACF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D2E5D2C0DFC4900539ACF /* CustomButton.swift */; };
 		B93D2E602C0DFD4300539ACF /* OptionsMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D2E5F2C0DFD4300539ACF /* OptionsMessageView.swift */; };
 		B93D2E622C0DFE0D00539ACF /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D2E612C0DFE0D00539ACF /* SocialButton.swift */; };
+		B9A4E6712C1093A900AE78F2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4E6702C1093A900AE78F2 /* UserModel.swift */; };
+		B9A4E6732C10946700AE78F2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4E6722C10946700AE78F2 /* APIManager.swift */; };
+		B9A4E6762C10950A00AE78F2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B9A4E6752C10950A00AE78F2 /* Alamofire */; };
+		B9A4E6782C10950A00AE78F2 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B9A4E6772C10950A00AE78F2 /* AlamofireDynamic */; };
+		B9A4E67A2C10974D00AE78F2 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4E6792C10974D00AE78F2 /* Spinner.swift */; };
+		B9EE49582C108BA8005595DF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE49572C108BA8005595DF /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +47,12 @@
 		B909DAD82C0EDC0F009DE0A1 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		B909DADA2C0EDD17009DE0A1 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		B909DADC2C0EDD59009DE0A1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B909DADE2C0EE0AC009DE0A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B909DAE12C0EE739009DE0A1 /* GreatVibes-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreatVibes-Regular.ttf"; sourceTree = "<group>"; };
+		B909DAE32C0EE74E009DE0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B909DAE42C0EE75E009DE0A1 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B909DAE62C0EE77F009DE0A1 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		B909DAEA2C0EF2E6009DE0A1 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		B93D2E3A2C0DECB000539ACF /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93D2E3D2C0DECB000539ACF /* TestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppApp.swift; sourceTree = "<group>"; };
 		B93D2E3F2C0DECB000539ACF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +66,10 @@
 		B93D2E5D2C0DFC4900539ACF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B93D2E5F2C0DFD4300539ACF /* OptionsMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsMessageView.swift; sourceTree = "<group>"; };
 		B93D2E612C0DFE0D00539ACF /* SocialButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
+		B9A4E6702C1093A900AE78F2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B9A4E6722C10946700AE78F2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B9A4E6792C10974D00AE78F2 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		B9EE49572C108BA8005595DF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +77,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A4E6762C10950A00AE78F2 /* Alamofire in Frameworks */,
+				B9A4E6782C10950A00AE78F2 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B909DAE02C0EE72A009DE0A1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B909DAE12C0EE739009DE0A1 /* GreatVibes-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		B93D2E312C0DECB000539ACF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,7 @@
 		B93D2E3C2C0DECB000539ACF /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				B909DAE32C0EE74E009DE0A1 /* Info.plist */,
 				B93D2E522C0DECEB00539ACF /* Root */,
 				B93D2E512C0DECDA00539ACF /* Resources */,
 				B93D2E502C0DECD200539ACF /* Extensions */,
@@ -107,6 +139,8 @@
 			children = (
 				B93D2E532C0DED0300539ACF /* LoginView.swift */,
 				B909DACD2C0ED134009DE0A1 /* SignupView.swift */,
+				B909DADE2C0EE0AC009DE0A1 /* HomeView.swift */,
+				B9EE49572C108BA8005595DF /* SplashView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -114,6 +148,7 @@
 		B93D2E4C2C0DECBE00539ACF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B9A4E6702C1093A900AE78F2 /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -135,6 +170,7 @@
 				B93D2E5D2C0DFC4900539ACF /* CustomButton.swift */,
 				B93D2E5F2C0DFD4300539ACF /* OptionsMessageView.swift */,
 				B93D2E612C0DFE0D00539ACF /* SocialButton.swift */,
+				B9A4E6792C10974D00AE78F2 /* Spinner.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -146,6 +182,9 @@
 				B909DAD42C0EDA8E009DE0A1 /* ValidationError.swift */,
 				B909DAD82C0EDC0F009DE0A1 /* Utils.swift */,
 				B909DADC2C0EDD59009DE0A1 /* Constants.swift */,
+				B909DAE42C0EE75E009DE0A1 /* Fonts.swift */,
+				B909DAEA2C0EF2E6009DE0A1 /* NavigationController.swift */,
+				B9A4E6722C10946700AE78F2 /* APIManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -155,6 +194,7 @@
 			children = (
 				B909DAD62C0EDB1E009DE0A1 /* String.swift */,
 				B909DADA2C0EDD17009DE0A1 /* View.swift */,
+				B909DAE62C0EE77F009DE0A1 /* Font.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -162,6 +202,7 @@
 		B93D2E512C0DECDA00539ACF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B909DAE02C0EE72A009DE0A1 /* Fonts */,
 				B93D2E412C0DECB300539ACF /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -193,6 +234,8 @@
 			);
 			name = TestApp;
 			packageProductDependencies = (
+				B9A4E6752C10950A00AE78F2 /* Alamofire */,
+				B9A4E6772C10950A00AE78F2 /* AlamofireDynamic */,
 			);
 			productName = TestApp;
 			productReference = B93D2E3A2C0DECB000539ACF /* TestApp.app */;
@@ -223,6 +266,7 @@
 			);
 			mainGroup = B93D2E312C0DECB000539ACF;
 			packageReferences = (
+				B9A4E6742C10950A00AE78F2 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = B93D2E3B2C0DECB000539ACF /* Products */;
 			projectDirPath = "";
@@ -240,6 +284,7 @@
 			files = (
 				B93D2E452C0DECB300539ACF /* Preview Assets.xcassets in Resources */,
 				B93D2E422C0DECB300539ACF /* Assets.xcassets in Resources */,
+				B909DAE22C0EE739009DE0A1 /* GreatVibes-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B909DADB2C0EDD17009DE0A1 /* View.swift in Sources */,
+				B9EE49582C108BA8005595DF /* SplashView.swift in Sources */,
 				B909DADD2C0EDD59009DE0A1 /* Constants.swift in Sources */,
 				B93D2E542C0DED0300539ACF /* LoginView.swift in Sources */,
 				B93D2E402C0DECB000539ACF /* ContentView.swift in Sources */,
@@ -259,13 +305,20 @@
 				B909DAD72C0EDB1E009DE0A1 /* String.swift in Sources */,
 				B909DAD92C0EDC0F009DE0A1 /* Utils.swift in Sources */,
 				B93D2E5A2C0DF33600539ACF /* CustomTextField.swift in Sources */,
+				B9A4E6712C1093A900AE78F2 /* UserModel.swift in Sources */,
+				B909DADF2C0EE0AC009DE0A1 /* HomeView.swift in Sources */,
 				B93D2E5C2C0DF6D000539ACF /* AuthViewModel.swift in Sources */,
 				B93D2E5E2C0DFC4900539ACF /* CustomButton.swift in Sources */,
+				B909DAE72C0EE77F009DE0A1 /* Font.swift in Sources */,
 				B93D2E3E2C0DECB000539ACF /* TestAppApp.swift in Sources */,
+				B9A4E67A2C10974D00AE78F2 /* Spinner.swift in Sources */,
 				B93D2E602C0DFD4300539ACF /* OptionsMessageView.swift in Sources */,
 				B93D2E562C0DEFD700539ACF /* Background.swift in Sources */,
 				B909DACE2C0ED134009DE0A1 /* SignupView.swift in Sources */,
 				B909DAD32C0ED92D009DE0A1 /* KeyboardObserver.swift in Sources */,
+				B909DAE52C0EE75E009DE0A1 /* Fonts.swift in Sources */,
+				B9A4E6732C10946700AE78F2 /* APIManager.swift in Sources */,
+				B909DAEB2C0EF2E6009DE0A1 /* NavigationController.swift in Sources */,
 				B93D2E582C0DF31D00539ACF /* TitleAndMessageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TestApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,6 +484,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TestApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -470,6 +525,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B9A4E6742C10950A00AE78F2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B9A4E6752C10950A00AE78F2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9A4E6742C10950A00AE78F2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B9A4E6772C10950A00AE78F2 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9A4E6742C10950A00AE78F2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B93D2E322C0DECB000539ACF /* Project object */;
 }

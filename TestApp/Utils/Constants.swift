@@ -12,4 +12,9 @@ final class Constants {
     private init() {}
     
     let appName: String = "TestApp"
+    let baseURL: String = "https://mytuur.bcoder.co.in"
+    ///Navigation Destinations
+    let goToHomeFromLogin = "home"
+    let goToHomeFromSignup = "home"
+    let signup = "signup"
 }

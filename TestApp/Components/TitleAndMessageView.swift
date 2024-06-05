@@ -13,7 +13,7 @@ struct TitleAndMessageView: View {
     var body: some View {
         VStack(spacing: 10){
             Text(title)
-                .font(.system(size: 35, weight: .black))
+                .font(.system(size: 35, weight: .black, design: .serif))
             
             Text(message)
                 .font(.system(size: 14, weight: .regular))
